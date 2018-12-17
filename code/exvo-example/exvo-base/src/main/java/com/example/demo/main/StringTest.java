@@ -7,10 +7,13 @@ public class StringTest {
 
     public static void main(String[] args) {
         //包含
-        contains();
+//        contains();
         //是否为汉字
-        vd("asdsa");
-        isChineseChar("张家口asddfdf");
+//        vd("asdsa");
+//        isChineseChar("张家口asddfdf");
+
+        //format
+        formatDemo();
     }
 
     /**
@@ -61,5 +64,12 @@ public class StringTest {
         System.out.println(temp);
         return temp;
     }
+
+    public static void formatDemo() {
+//        System.out.println(String.format("%04d", 9));
+        System.out.println("AAA45667".matches("\\A{3}d+/"));
+
+    }
+
 
 }
