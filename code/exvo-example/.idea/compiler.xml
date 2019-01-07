@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com.example.base" />
+        <module name="exvo.example.thread" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exvo-thread" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
