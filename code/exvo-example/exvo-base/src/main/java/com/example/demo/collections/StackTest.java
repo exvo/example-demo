@@ -19,7 +19,7 @@ public class StackTest {
     }
 
     public static Stack<String> init(int size) {
-        Stack<String> stringStack = new Stack<>();
+        Stack<String> stringStack = new Stack<String>();
         for (int i = 0; i < size; i++) {
             push(stringStack, "A00" + i);
         }
