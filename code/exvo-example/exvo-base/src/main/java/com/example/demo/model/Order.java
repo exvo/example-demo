@@ -1,6 +1,7 @@
 package com.example.demo.model;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
@@ -10,10 +11,13 @@ import lombok.Setter;
  */
 @Getter
 @Setter
+@NoArgsConstructor
 public class Order {
 
     private String orderNo;
     private Double amount;
+    private String num;
+    private String type;
 
     public Order(String orderNo, Double amount) {
         this.orderNo = orderNo;

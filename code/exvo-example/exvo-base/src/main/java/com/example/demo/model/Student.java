@@ -1,10 +1,13 @@
 package com.example.demo.model;
 
+import lombok.NoArgsConstructor;
+
 /**
  * @Date: 2018/12/21
  * @Author: wu yang
  * @Description:
  */
+@NoArgsConstructor
 public class Student {
 
     private int age;
