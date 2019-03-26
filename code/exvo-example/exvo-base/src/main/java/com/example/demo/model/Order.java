@@ -11,7 +11,6 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-@NoArgsConstructor
 public class Order {
 
     private String orderNo;
@@ -19,8 +18,11 @@ public class Order {
     private String num;
     private String type;
 
-    public Order(String orderNo, Double amount) {
-        this.orderNo = orderNo;
-        this.amount = amount;
+    static {
+        System.out.println("Order static load...");
+    }
+
+    public Order() {
+        System.out.println("Order load...");
     }
 }

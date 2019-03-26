@@ -22,6 +22,12 @@ public class User {
         this.age = age;
     }
 
+}
 
 
+class Main {
+    public static void main(String[] args) {
+        User user = new User("name", 12);
+        System.out.println(user);
+    }
 }
