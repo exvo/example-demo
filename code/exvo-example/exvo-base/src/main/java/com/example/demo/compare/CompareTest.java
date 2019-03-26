@@ -1,4 +1,4 @@
-package com.example.demo.main;
+package com.example.demo.compare;
 
 import java.util.Arrays;
 
@@ -28,7 +28,7 @@ public class CompareTest {
         for (int i = 1; i < len && flag; i++) {
             flag = false;
             for (int j = 0; j < len - i; j ++) {
-                if (arrays[j].compareTo(arrays[j+1]) < 0) {
+                if (arrays[j].compareTo(arrays[j+1]) > 0) {
                     T temp = arrays[j];
                     arrays[j] = arrays[j+1];
                     arrays[j+1] = temp;
