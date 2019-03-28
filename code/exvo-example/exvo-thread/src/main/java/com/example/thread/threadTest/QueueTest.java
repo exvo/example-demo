@@ -1,11 +1,8 @@
-package com.example.thread.threadTest.queue;
+package com.example.thread.threadTest;
 
 import com.alibaba.fastjson.JSON;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.LinkedList;
-import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -159,61 +156,4 @@ class Main1 {
         }
         queue.showQueueData();
     }
-}
-
-class Main {
-
-    private static Thread[] threads;
-
-    public static void main(String[] args) {
-        System.out.println("请输入线程数量");
-        Scanner scanner = new Scanner(System.in);
-        int threadNum = scanner.nextInt();
-        init(threadNum);
-        System.out.println("请输入队列最大值");
-        int queueNum = scanner.nextInt();
-        QueueTest queue = new QueueTest(queueNum);
-        for (Thread thread : threads) {
-            System.out.println("请输入线程名称");
-            String threadName = scanner.next();
-            thread.setName(threadName);
-
-            System.out.println("请输入操作方法");
-            String methodName = scanner.next();
-
-            String data = "";
-
-            Class<? extends QueueTest> queueClass = queue.getClass();
-            try {
-                Method method;
-                if ("put".equals(methodName)) {
-                    System.out.println("请输入put数据");
-                    data = scanner.next();
-                    method = queueClass.getMethod(methodName, new Class[]{Object.class});
-                } else {
-                    method = queueClass.getMethod(methodName);
-                }
-                if (data.equals("")) {
-                    method.invoke(queue);
-                } else {
-                    method.invoke(queue, new Object[]{data});
-                }
-            } catch (NoSuchMethodException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            } catch (InvocationTargetException e) {
-                e.printStackTrace();
-            }
-        }
-        System.out.println(threadNum);
-    }
-
-    private static void init(int num) {
-        threads = new Thread[num];
-        for (int i = 0; i < num; i++) {
-            threads[i] = new Thread();
-        }
-    }
-
 }
