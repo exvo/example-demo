@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a0742f-995d-4226-8bc2-1e0ceb6086b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/exvo-thread/target/" />
@@ -22,65 +23,69 @@
     <session id="-1923966990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.open.time.4" value="6" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.4" value="7" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="79" />
-          <entry key="xml" value="6" />
+          <entry key="class" value="3" />
+          <entry key="java" value="80" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="79" />
-          <entry key="XML" value="6" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="80" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="7889" />
+          <entry key="java" value="8472" />
           <entry key="txt" value="6" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7889" />
+          <entry key="JAVA" value="8472" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="52" column="39" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="586">
+              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FeeType.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -90,8 +95,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,13 +115,14 @@
       <find>&quot;,&quot; +</find>
       <find />
       <find>'</find>
+      <find>+</find>
     </findStrings>
     <replaceStrings>
       <replace>BaseModel</replace>
       <replace>binarySearch1</replace>
       <replace>Singleton</replace>
-      <replace>,</replace>
       <replace>&quot;</replace>
+      <replace>,</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -132,7 +138,6 @@
         <option value="$PROJECT_DIR$/exvo-base/pom.xml" />
         <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/TestRegex.java" />
         <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/Test2.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/JSONTest.java" />
         <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/Test1.java" />
         <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/VolatileTest.java" />
@@ -158,7 +163,9 @@
         <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/QueueTest.java" />
         <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/PoolTest.java" />
         <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FeeType.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java" />
+        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java" />
       </list>
     </option>
   </component>
@@ -358,7 +365,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554793298526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555057281087" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -497,7 +504,11 @@
       <workItem from="1554338608138" duration="964000" />
       <workItem from="1554364671224" duration="49000" />
       <workItem from="1554688127733" duration="919000" />
-      <workItem from="1554770335022" duration="715000" />
+      <workItem from="1554770335022" duration="736000" />
+      <workItem from="1554953987354" duration="2614000" />
+      <workItem from="1554959478241" duration="603000" />
+      <workItem from="1554965951450" duration="895000" />
+      <workItem from="1555055908592" duration="1176000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1551943832804</created>
@@ -562,17 +573,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553851743107</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1554793315217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554793315217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60189000" />
+    <option name="totallyTimeSpent" value="65498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27249357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28727508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -582,7 +600,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30125523" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37238494" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53974897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -619,20 +637,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="474" column="19" selection-start-line="474" selection-start-column="19" selection-end-line="474" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/collections/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2443">
@@ -655,22 +659,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exvo-thread/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -940,17 +930,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FeeType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exvo-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/ArrayUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="2350" column="56" selection-start-line="2350" selection-start-column="50" selection-end-line="2350" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
