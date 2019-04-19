@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com.example.base" />
+        <module name="com.example.utils" />
         <module name="exvo.example.thread" />
       </profile>
     </annotationProcessing>

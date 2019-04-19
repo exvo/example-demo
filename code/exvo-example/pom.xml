@@ -11,6 +11,7 @@
     <modules>
         <module>exvo-base</module>
         <module>exvo-thread</module>
+        <module>exvo-utils</module>
     </modules>
 
     <dependencies>
