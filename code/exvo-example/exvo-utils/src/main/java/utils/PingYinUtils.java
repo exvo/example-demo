@@ -73,8 +73,13 @@ public class PingYinUtils {
         String[] cities = {"北京市", "朝阳区", "上海市", "浦东新区", "郧阳区"};
 
         for (String city : cities) {
+
+            if (city.endsWith("市")) {
+                city = city.substring(0, city.length() - 1);
+            }
+            System.out.print(city);
             String pingYin = getPingYin(city);
-            System.out.print(pingYin);
+            System.out.print("----------------" + pingYin.toLowerCase());
 
             String head = getPinYinHeadChar(city);
             System.out.print("----------------" + head);
