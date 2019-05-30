@@ -24,6 +24,7 @@ public class SearchTest {
         /** 递归方法 */
         int index = binarySearch2(arrays, 4, 0, arrays.length - 1, Integer::compareTo);
         if (index >= 0) {
+            System.out.println(index);
             System.out.println(arrays[index]);
         } else {
             System.out.println("no data");

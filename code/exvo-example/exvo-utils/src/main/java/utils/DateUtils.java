@@ -197,7 +197,9 @@ public class DateUtils {
     }
 
     public static void main(String[] args) {
-        System.out.println(durationHours(createDate(2018,1,2,23,23,23), createDate(2018,1,3,23,23,23)));
+        LocalDate now = LocalDate.now();
+        LocalDate date = now.minusDays(2);
+        System.out.println(date);
     }
 
 }
