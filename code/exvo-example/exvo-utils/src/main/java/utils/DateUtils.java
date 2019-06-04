@@ -25,6 +25,8 @@ public class DateUtils {
     public static final String MINUTE = "MINUTE";
     public static final String SECOND = "SECOND";
 
+    public static final DateTimeFormatter YYYY_MM_DD_HH_MM_SS = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
     /**
      * Date转换成LocalDateTime，默认时区
      * @param date
