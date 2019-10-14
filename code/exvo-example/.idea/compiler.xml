@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="com.example.base" />
         <module name="com.example.utils" />
+        <module name="exvo-netty" />
+        <module name="com.example.base" />
+        <module name="exvo-utils" />
+        <module name="exvo-thread" />
         <module name="exvo.example.thread" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="exvo-thread" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

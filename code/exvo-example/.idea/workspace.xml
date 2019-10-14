@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a0742f-995d-4226-8bc2-1e0ceb6086b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exvo-netty/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-netty/src/main/java/netty/test/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-netty/src/main/java/netty/test/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-netty/src/main/java/netty/test/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-netty/src/main/java/netty/test/server/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-netty/src/main/java/noi/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/study/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/study/work/DieLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/study/work/DieLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/study/work/MyLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/study/work/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/study/work/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/utils/LogUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/JSONTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/JSONTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exvo-utils/src/main/java/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/exvo-utils/src/main/java/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exvo-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exvo-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/exvo-thread/target/" />
-    <ignored path="$PROJECT_DIR$/exvo-base/target/" />
-    <ignored path="$PROJECT_DIR$/exvo-utils/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,109 +30,6 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1923966990">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="48" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.2" value="12" />
-          <entry key="project.open.time.3" value="16" />
-          <entry key="project.open.time.4" value="12" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="52" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="7" />
-          <entry key="java" value="185" />
-          <entry key="xml" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="185" />
-          <entry key="XML" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="2" />
-          <entry key="java" value="12652" />
-          <entry key="txt" value="20" />
-          <entry key="xml" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="12652" />
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="XML" value="15" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/JSONTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exvo-utils/src/main/java/utils/DateUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/DateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/model/Panda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -131,102 +38,15 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>CloneClass</find>
-      <find>　　</find>
-      <find>getMethod</find>
-      <find>binarySearch</find>
-      <find>threads</find>
-      <find>thread</find>
-      <find>Singletion</find>
-      <find>add</find>
-      <find>threadFactory</find>
-      <find>\n</find>
-      <find>&quot;,&quot; +</find>
-      <find />
-      <find>'</find>
-      <find>+</find>
-      <find>random</find>
-      <find> </find>
-      <find>random(</find>
-      <find>JSONPObject</find>
-      <find>JsonObject</find>
-      <find>Date(</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>BaseModel</replace>
-      <replace>binarySearch1</replace>
-      <replace>Singleton</replace>
-      <replace>&quot;</replace>
-      <replace>,</replace>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/collections/StackTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/ttt.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/collections/MapTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/pom.xml" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/TestRegex.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/Test2.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/Test1.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/VolatileTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/model/FlightOrder.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/model/Order.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/model/BaseModel.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/model/Food.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/model/User.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test1.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/CompearTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/CompareTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/SearchTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/BitOperation.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/CompareTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/StringComparator.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/BaseModel.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/ModelComparable.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/Model.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/queue/QueueTest.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/InnerSingletion.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/InnerSingleton.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/QueueTest.java" />
-        <option value="$PROJECT_DIR$/exvo-thread/src/main/java/com/example/thread/threadTest/PoolTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FeeType.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java" />
-        <option value="$PROJECT_DIR$/exvo-utils/pom.xml" />
-        <option value="$PROJECT_DIR$/exvo-utils/src/main/java/utils/PingYinUtils.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FoodTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/lambad/Test1.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/utils/QueryTypeUtils.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/SearchTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/JSONTest.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/DateTest.java" />
-        <option value="$PROJECT_DIR$/exvo-utils/src/main/java/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java" />
-      </list>
-    </option>
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\wyang\.m2\repository" />
         <option name="mavenHome" value="D:/Tools/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="D:\Tools\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -237,18 +57,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
-  </component>
+  <component name="ProjectId" id="1QJVHJs1gTN1sFW83OF1Pd8ehZ7" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -290,166 +99,25 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="compare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.example.demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exvo-example" type="462c0819:PsiDirectoryNode" />
-              <item name="exvo-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Comp&#9;PSI&#9;JAVA://com.example.demo.compare.ModelComparable&#10;Compa&#9;PSI&#9;JAVA://com.example.demo.compare.CompareTest" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559637235220" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.test.client" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.thread.study.work" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -463,13 +131,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test02">
-    <configuration name="AnimalGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.generic.AnimalGeneric" />
-      <module name="com.example.base" />
+  <component name="RunManager" selected="Application.DieLockDemo">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.test.client.Client" />
+      <module name="exvo-netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.generic.*" />
+          <option name="PATTERN" value="netty.test.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.DateUtils" />
-      <module name="com.example.utils" />
+    <configuration name="DieLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.thread.study.work.DieLockDemo" />
+      <module name="exvo-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="com.example.thread.study.work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.main.JSONTest" />
-      <module name="com.example.base" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.test.server.Server" />
+      <module name="exvo-netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.main.*" />
+          <option name="PATTERN" value="netty.test.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -503,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.main.Test02" />
-      <module name="com.example.base" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.thread.study.Test" />
+      <module name="exvo-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.main.*" />
+          <option name="PATTERN" value="com.example.thread.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -516,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeTuple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.generic.ThreeTuple" />
-      <module name="com.example.base" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.thread.study.work.Test3" />
+      <module name="exvo-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.generic.*" />
+          <option name="PATTERN" value="com.example.thread.study.work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -530,19 +198,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test02" />
-      <item itemvalue="Application.ThreeTuple" />
-      <item itemvalue="Application.AnimalGeneric" />
-      <item itemvalue="Application.DateUtils" />
-      <item itemvalue="Application.JSONTest" />
+      <item itemvalue="Application.Test3" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.DieLockDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test02" />
-        <item itemvalue="Application.JSONTest" />
-        <item itemvalue="Application.DateUtils" />
-        <item itemvalue="Application.AnimalGeneric" />
-        <item itemvalue="Application.ThreeTuple" />
+        <item itemvalue="Application.DieLockDemo" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -608,6 +276,14 @@
       <workItem from="1559283162899" duration="3158000" />
       <workItem from="1559527333206" duration="1000000" />
       <workItem from="1559631474130" duration="2920000" />
+      <workItem from="1567488598642" duration="2853000" />
+      <workItem from="1567665980625" duration="1498000" />
+      <workItem from="1567747626782" duration="9322000" />
+      <workItem from="1568010950939" duration="892000" />
+      <workItem from="1568101427989" duration="600000" />
+      <workItem from="1568624232528" duration="3031000" />
+      <workItem from="1568687476526" duration="7644000" />
+      <workItem from="1570844817818" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1551943832804</created>
@@ -710,86 +386,21 @@
     <option name="localTasksCounter" value="15" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106952000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32840616" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29665738" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3481894" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3259053" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.18384402" />
-      <window_info anchor="bottom" id="JRebel Executor" order="12" />
-      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32969153" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30269924" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34679666" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53974897" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3259053" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.2339833" />
-      <window_info anchor="bottom" id="JRebel Executor" order="12" />
-      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32969153" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -797,469 +408,5 @@
     <MESSAGE value="拼音工具类" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/temporal/TemporalUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="132" column="35" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/temporal/ChronoUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="76" column="22" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/TimeZone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="624" column="38" lean-forward="true" selection-start-line="624" selection-start-column="38" selection-end-line="624" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/ZoneId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="273" column="27" selection-start-line="273" selection-start-column="27" selection-end-line="273" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/format/ResolverStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/temporal/ChronoField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="302" column="4" selection-start-line="302" selection-start-column="4" selection-end-line="302" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-utils/src/main/java/utils/PingYinUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="472" column="43" selection-start-line="472" selection-start-column="43" selection-end-line="472" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/temporal/TemporalAccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/temporal/Temporal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/CompareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/collections/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/collections/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/model/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/utils/QueryTypeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/collections/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/collections/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/LongTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FoodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/FeeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" column="14" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/lambad/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/lambad/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/ModelComparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/compare/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/AnimalGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/TwoTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/BaseDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/ThreeTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/model/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/model/Monkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/model/Elephant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.8/fastjson-1.2.8.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.8/fastjson-1.2.8.jar!/com/alibaba/fastjson/JSONPObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6118">
-          <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="530" column="18" selection-start-line="530" selection-start-column="18" selection-end-line="530" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/generic/model/Panda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/DateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="1371" column="4" selection-start-line="1371" selection-start-column="4" selection-end-line="1371" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="749" column="4" lean-forward="true" selection-start-line="749" selection-start-column="4" selection-end-line="749" selection-end-column="4" />
-          <folding>
-            <element signature="e#31780#31781#0" expanded="true" />
-            <element signature="e#31808#31809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="763" column="27" lean-forward="true" selection-start-line="763" selection-start-column="27" selection-end-line="763" selection-end-column="27" />
-          <folding>
-            <element signature="e#33690#33691#0" expanded="true" />
-            <element signature="e#33733#33734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-utils/src/main/java/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/JSONTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19435">
-          <caret line="163" column="16" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="16" />
-          <folding>
-            <element signature="e#6390#6391#0" expanded="true" />
-            <element signature="e#6438#6439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exvo-base/src/main/java/com/example/demo/main/Test02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>base|example</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.alibaba:fastjson:1.2.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

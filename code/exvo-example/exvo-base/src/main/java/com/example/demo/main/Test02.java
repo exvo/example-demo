@@ -1,13 +1,6 @@
 package com.example.demo.main;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
+import com.alibaba.fastjson.JSON;
 
 /**
  * @Date: 2019/4/12
@@ -17,54 +10,35 @@ import java.util.Random;
 public class Test02 {
 
     public static void main(String[] args) {
-        SimpleDateFormat DATE_TIME_FORMAT_EXAC = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String startDate = "2018-11-01 12:34:56";
-//
-        LocalDateTime localDateTime = LocalDateTime.parse(startDate, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-//        System.out.println(localDateTime.getYear());
-//        System.out.println(localDateTime.getMonthValue());
-//        System.out.println(localDateTime.getDayOfMonth());
-//        System.out.println(localDateTime.getHour());
-//        System.out.println(localDateTime.getMinute());
-//        System.out.println(localDateTime.getSecond());
+        Solution solution = new Solution();
+        solution.main();
+    }
 
-//        LocalDateTime localDateTime = LocalDateTime.now();
-//        Date from = Date.from(localDateTime.atZone(ZoneId.systemDefault()).toInstant());
-//        System.out.println(from);
+    static class Solution {
 
-        try {
-            Date date = DATE_TIME_FORMAT_EXAC.parse(startDate);
-            LocalDateTime localDateTime1 = LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault());
-            System.out.println(localDateTime1);
-        } catch (ParseException e) {
-            e.printStackTrace();
+        public void main() {
+            char[] car = {'h','e','l','l','o'};
+            System.out.println(car);
+            reverseString(car);
+            System.out.println(car);
         }
 
-    }
+        public void reverseString(char[] s) {
+            long l = System.currentTimeMillis();
+            reverse(s, 0);
+            System.out.println(l - System.currentTimeMillis());
+        }
 
-    public static void test(){
-        int[] num = {1,2,2,3,4,5,6,7,8,9};
-        int sum = 7;
-        findSum(num,sum);
-    }
-
-    public static void findSum(int[] num,int sum){
-        int left=0;
-        int right=0;
-
-        for(int i=0;i<num.length;i++){
-            int curSum = 0;
-            left = i;
-            right = i;
-            while(curSum<sum){
-                curSum += num[right++];
-            }
-            if(curSum==sum){
-                for(int j=left;j<right;j++){
-                    System.out.print(num[j]+" ");
-                }
-                System.out.println();
-            }
+        public void reverse(char[] s, int index) {
+            if (s == null) return;
+            int length = s.length;
+            int begin = index;
+            int end = length - index - 1;
+            if (begin >= end) return;
+            char temp = s[begin];
+            s[begin] = s[end];
+            s[end] = temp;
+            reverse(s, ++index);
         }
     }
 

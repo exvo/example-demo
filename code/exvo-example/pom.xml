@@ -12,6 +12,7 @@
         <module>exvo-base</module>
         <module>exvo-thread</module>
         <module>exvo-utils</module>
+        <module>exvo-netty</module>
     </modules>
 
     <dependencies>
